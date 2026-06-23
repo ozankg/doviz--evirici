@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz Çevirici</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Döviz Çevirici</h1>
+
+        <input type="number" id="miktar" placeholder="Miktar giriniz">
+
+        <select id="birinciPara">
+            <option value="TRY">Türk Lirası</option>
+            <option value="USD">Dolar</option>
+            <option value="EUR">Euro</option>
+        </select>
+
+        <select id="ikinciPara">
+            <option value="USD">Dolar</option>
+            <option value="EUR">Euro</option>
+            <option value="TRY">Türk Lirası</option>
+        </select>
+
+        <button onclick="cevir()">Çevir</button>
+
+        <h2 id="sonuc">Sonuç burada görünecek</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
